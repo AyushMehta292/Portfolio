@@ -1,0 +1,99 @@
+.flexing2 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 5rem;
+}
+@media screen and (min-width: 1000px) {
+  .flexing2 {
+    height: 40vh;
+    flex-direction: row;
+  }
+}
+
+.section2 {
+  flex: 5.21;
+  position: relative;
+  transition: 0.5s ease;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.section_5 {
+  background-color: #f5f5f7;
+}
+.section_5:hover {
+  background-image: url("../assets/img/certificate/20230821_231822.jpg");
+  /* transition: ease-in-out 0.5s; */
+  background-size: cover;
+}
+.section_6 {
+  background-color: #f5f5f7;
+}
+.section_6:hover {
+  background-image: url("../assets/img/certificate/20230821_231722.jpg");
+  /* transition: ease-in-out 0.5s; */
+  background-size: cover;
+}
+.section_7 {
+  background-color: #f5f5f7;
+}
+.section_7:hover {
+  background-image: url("../assets/img/certificate/20230821_231009.jpg");
+  /* transition: ease-in-out 0.5s; */
+  background-size: cover;
+}
+.section_8 {
+  background-color: #f5f5f7;
+}
+.section_8:hover {
+  background-image: url("../assets/img/certificate/20230821_230751.jpg");
+  /* transition: ease-in-out 0.5s; */
+  background-size: cover;
+}
+.section_9 {
+  background-color: #f5f5f7;
+}
+.section_9:hover {
+  background-image: url("../assets/img/certificate/20230821_231910.jpg");
+  /* transition: ease-in-out 0.5s; */
+  background-size: cover;
+}
+.section2:hover,
+.section2:active,
+.section2:focus {
+  flex: 34;
+}
+/* .section:hover .title,
+  .section:active .title,
+  .section:focus .title {
+    transform: translate(-50%, -50%) rotate(90);
+  } */
+@media screen and (min-width: 1000px) {
+  .section2:hover .title2,
+  .section2:active .title2,
+  .section2:focus .title2 {
+    /* visibility: hidden; */
+    transform: scale(0);
+  }
+}
+.section2 .title2 {
+  /* font-family: "Fredoka One"; */
+  font-size: 2rem;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* transition: 0.5s ease; */
+}
+@media screen and (min-width: 1000px) {
+  .section2 .title2 {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  .section2:hover,
+  .section2:active,
+  .section2:focus {
+    flex: 7;
+  }
+}

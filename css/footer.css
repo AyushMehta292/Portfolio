@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 80px;
+  font-size: 2vh;
+}
+.footer_logo {
+  display: flex;
+  color: #555;
+  font-weight: bold;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: 45px auto;
+  font-size: 3vh;
+}
+.footer_logo li {
+  display: inline-block;
+}
+.footer_logo li:hover {
+  color: #1d1d1f;
+
+  /* -webkit-filter: invert(1);
+  filter: invert(0.5); */
+}
+.footer__link {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: rem(14);
+}
+.footer .fab {
+  margin-right: 8px;
+}
+.footer_text {
+  color: #666;
+  text-align: center;
+}
+
+.separador {
+  background-color: #999;
+  height: 2px;
+  max-width: 30px;
+  margin: 15px auto 20px;
+}
+
+#salesforceimg {
+  height: 2vh;
+}
